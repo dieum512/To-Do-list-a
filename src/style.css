@@ -64,18 +64,18 @@ h1 {
   border-bottom: 1px solid #585858;
 }
 
-.addlist {
+input {
   border: none;
 }
 
-.to-do-list li {
+.to-do-list .item {
   padding: 8px 5%;
   border-bottom: 1px solid #585858;
   display: flex;
   justify-content: space-between;
 }
 
-.to-do-list li .task-div {
+.to-do-list .item .check {
   display: flex;
   gap: 10px;
 }
