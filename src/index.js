@@ -1,3 +1,5 @@
+/* eslint-disable import/no-cycle */
+/* eslint-disable no-restricted-globals */
 
 import './style.css';
 
@@ -32,9 +34,6 @@ arr.forEach((task) => {
     <i class="fa-solid fa-trash trash"></i>
   </li>`;
 });
-
-
-
 
 export const editForm = document.querySelectorAll('#edit-form');
 export const editFormArr = Array.from(editForm);
