@@ -17,7 +17,7 @@ export function addTodo() {
       arr.push({
         name: toDo,
         completed: false,
-        index: arr.length,
+        index: arr.length + 1,
       });
 
       localStorage.setItem('List', JSON.stringify(arr));
