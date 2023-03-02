@@ -6,7 +6,7 @@ import './style.css';
 import { dragDrop } from './dragtask.js';
 import { update } from './update.js';
 import {
-  addTodo, editTask, removeElement,
+  clearCompleted, addTodo, editTask, removeElement,
 } from './addandremove.js';
 
 export const form = document.querySelector('#form');
