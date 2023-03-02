@@ -109,7 +109,7 @@ npm test
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Dieum Akonkwa**
 
 - GitHub: [@dieum512](https://github.com/dieum512/)
 - Twitter: [@dieumakonkw](https://twitter.com/dieumakonkw)
