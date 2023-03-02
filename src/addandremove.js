@@ -1,5 +1,6 @@
 /* eslint-disable import/no-cycle */
 /* eslint-disable no-restricted-globals */
+/* eslint-disable  no-multi-assign */
 
 import {
   clear,
@@ -16,7 +17,7 @@ export function clearCompleted() {
     );
     filteredCompletedTask.forEach((item, index) => {
       item.index = index += 1;
-    })
+    });
     localStorage.setItem('List', JSON.stringify(filteredCompletedTask));
     location.reload();
   });
@@ -79,7 +80,7 @@ export function removeElement(task, trash) {
         const newArrFiltered = newArr.filter((task) => task.index !== childWithId);
         newArrFiltered.forEach((item, index) => {
           item.index = index += 1;
-        })
+        });
         localStorage.setItem('List', JSON.stringify(newArrFiltered));
         location.reload();
       }

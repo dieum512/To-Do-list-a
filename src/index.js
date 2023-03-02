@@ -50,5 +50,5 @@ window.addEventListener('load', () => {
   update();
 });
 
-clearCompleted()
+clearCompleted();
 removeElement(task, trash);
