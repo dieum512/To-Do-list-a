@@ -2,7 +2,7 @@
 /* eslint-disable no-restricted-globals */
 
 import {
-  //   clearAll,
+  clear,
   form,
   arr,
   editFormArr,
