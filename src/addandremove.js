@@ -8,6 +8,17 @@ import {
   editFormArr,
 } from './index.js';
 
+export function clearCompleted() {
+  clear.addEventListener('click', () => {
+    const newArr = JSON.parse(localStorage.getItem('List')) || [];
+    const filteredCompletedTask = newArr.filter(
+      (item) => item.completed !== true,
+    );
+    localStorage.setItem('List', JSON.stringify(filteredCompletedTask));
+    location.reload();
+  });
+}
+
 export function addTodo() {
   form.addEventListener('submit', () => {
     const input = document.querySelector('.addlist');
